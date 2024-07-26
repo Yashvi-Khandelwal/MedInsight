@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+}
+
+.background{
+    background-image: url('C:\Users\yashv\OneDrive\Desktop\React app\my-first-react\src\images\home_bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 2em; */
+}
