@@ -16,7 +16,7 @@ const Home = () => {
                     <div>
                         <nav>Home</nav>
                         <nav>About</nav>
-                        <nav>Contact</nav>
+                        <nav>Medicine</nav>
                     </div>
 
                     <div>
