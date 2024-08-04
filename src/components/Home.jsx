@@ -41,11 +41,9 @@ const Home = () => {
       </div>
     </div>
   );
-      </div>
-    </div>
-  );
+   
 }
 
-export default Home;
+
 
 export default Home;
