@@ -1,15 +1,95 @@
 .header{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    /* position: fixed; */
+    position:sticky; 
+    top: 0px;
+    padding: 10px 0px;
+    /* background-color: white; */
+    box-shadow: 0px 0px 10px 2px #ccc;
+    background-color: azure;
+    z-index: 30;
+    
+
     /* background-color: red; */
     /* border: 2px solid red; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .background{
-    background-image: url('C:\Users\yashv\OneDrive\Desktop\React app\my-first-react\src\images\home_bg.jpg');
+
+    background-image: url('../images/img.jpg');
     height: 100vh;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
+    /* background-color:white;
+    opacity: 0.8; */
     /* margin-top: 2em; */
 }
+
+.content {
+    color: #000000;
+    position: absolute; 
+    top: 20%; 
+    left: 5%; 
+    font-weight: 600;
+    background-color: azure;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 1rem;
+    height: 70%;
+    max-width: 600px; 
+}
+
+.content p{
+    color: #000;
+}
+.navbar{
+    display: flex;
+    margin-left: 60%;
+    justify-content: flex-end;
+    /* background-color: red; */
+}
+
+.navbar nav{
+    padding: 2px 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.logo{
+    color: #0044ff;
+    margin-left: 60px;
+}
+
+.searchBtn{
+    margin: auto;
+    display: flex;
+    /* background-color: green; */
+     margin-right: 40px;
+     border-radius: 10px;
+     /* border: 1px solid rgb(25, 24, 24); */
+    }
+
+.searchBtn input{
+    width: 270px;
+    /* border-radius: 10px; */
+    height: 29px;
+}
+
+.icon{
+    background-color:black;
+    color: white;
+    padding: 3px 5px;
+    /* border-radius: 10px; */
+}
+
+
+.navbar nav:hover{
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
